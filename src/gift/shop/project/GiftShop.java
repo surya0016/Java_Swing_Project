@@ -23,7 +23,7 @@ public class GiftShop extends javax.swing.JFrame {
         try{
             String url = "jdbc:postgresql://localhost:5433/JDBC";
             String username = "postgres";
-            String password = "Saymynamman";
+            String password = " ";
             Connection con = DriverManager.getConnection(url, username , password);
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery(sqlQuerry);
