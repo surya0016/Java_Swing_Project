@@ -7,7 +7,7 @@
  *
  * @author beast
  */
-package GiftShop;
+package gift.shop.project;
 import java.sql.*;
 import javax.swing.JOptionPane;
 public class GiftShop extends javax.swing.JFrame {

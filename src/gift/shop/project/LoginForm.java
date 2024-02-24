@@ -1,3 +1,5 @@
+package gift.shop.project;
+
 
 
 
@@ -10,11 +12,11 @@
  *
  * @author beast
  */
-package Login;
+
 
 import java.sql.*;
 import javax.swing.*;
-import GiftShop.GiftShop;
+import gift.shop.project.GiftShop;
 public class LoginForm extends javax.swing.JFrame {
 
     /**

@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package gift.shop.project;
-import Login.LoginForm;
 
 /**
  *
@@ -17,7 +16,12 @@ public class GiftShopProject {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        LoginForm login = new LoginForm();
+//        LoginForm login = new LoginForm();
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new LoginForm().setVisible(true);
+            }
+        });
         
     }
     
